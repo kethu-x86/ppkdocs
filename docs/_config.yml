@@ -1,4 +1,11 @@
 # Just the Docs config
+remote_theme: just-the-docs/just-the-docs
+
+# Plugins
+plugins:
+  - jekyll-remote-theme
+  - jekyll-seo-tag
+
 title: Travel Planning Docs
 description: "Personalized Travel Planning System — A modern React dashboard for Kerala tourism."
 # Site logo
