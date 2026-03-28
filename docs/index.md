@@ -22,7 +22,8 @@ A comprehensive React-based dashboard for curating custom Kerala travel packages
 | Section                            | Description                                           |
 | ---------------------------------- | ----------------------------------------------------- |
 | [🖥️ Frontend Source](./Frontend/)   | Detailed documentation for every file in the `src` directory |
-| [⚙️ Backend API](./Backend/)       | FastAPI-based backend services and data management    |
+| [⚙️ Backend API](./Backend/)       | Flask-based API services and MySQL data management    |
+| [🏗️ Root Config](./Root/)           | Configuration files and utility scripts (package.json, etc.) |
 
 ---
 

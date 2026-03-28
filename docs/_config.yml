@@ -1,28 +1,37 @@
-remote_theme: just-the-docs/just-the-docs
+# Just the Docs config
+title: Travel Planning Docs
+description: "Personalized Travel Planning System — A modern React dashboard for Kerala tourism."
+# Site logo
+# logo: "/assets/images/logo.png"
 
-mermaid:
-  version: "11"
-  # custom mermaid config is handled in _includes/mermaid.html
+# Color scheme
+color_scheme: "light"
 
-title: NeuroTraffic Docs
-description: Smart Traffic Control System — AI-driven detection, RL optimization & WebRTC streaming.
-baseurl: "/Innoaite_Spartanz"
-url: "https://kethu-x86.github.io"
-
-# Just-the-Docs configuration
-color_scheme: dark
+# Search settings
 search_enabled: true
-search_tokenizer_separator: /[\s/]+/
+search:
+  heading_level: 2
+  previews: 3
+  tokenizer_separator: /[\s/]+/
+  rel_url: true
+  button: true
 
-nav_sort: case_insensitive
-heading_anchors: true
-aux_links:
-  "View on GitHub":
-    - "https://github.com/kethu-x86/Innoaite_Spartanz"
-aux_links_new_tab: true
+# Navigation settings
+nav_enabled: true
+nav_order: 1
 
-footer_content: 'NeuroTraffic &copy; 2025. Built with <a href="https://just-the-docs.com">Just the Docs</a>.'
+# Footer content
+footer_content: 'Personalized Travel Planning System &copy; 2026. Built with <a href="https://just-the-docs.com">Just the Docs</a>.'
 
-plugins:
-  - jekyll-remote-theme
-  - jekyll-seo-tag
+# External links in the navigation
+# auxiliary_links:
+#   "GitHub Repo":
+#     - "https://github.com/your-username/your-repo"
+
+# Back to top link
+back_to_top: true
+back_to_top_text: "Back to top"
+
+# Last updated
+last_edit_timestamp: true
+last_edit_label: "Last updated"

@@ -1,41 +1,28 @@
----
-layout: default
-title: About
-nav_order: 5
----
+# ✈️ Personalized Travel Planning System Documentation
 
-# 🚦 NeuroTraffic Smart Traffic System
+This repository contains the documentation for the **Personalized Travel Planning System**, a modern, responsive React-based dashboard designed for curating and reserving custom travel packages in Kerala.
 
-Welcome to the **NeuroTraffic** documentation! NeuroTraffic is a real-time, AI-driven Intelligent Traffic Control System combining Computer Vision, Reinforcement Learning, and a high-fidelity React dashboard.
+## 🌟 Overview
 
-## 📚 Documentation Sections
+The project combines a React 19 frontend with a Flask/MySQL backend to provide users with a seamless, budget-aware itinerary building experience. Users can choose destinations, select activities, discover hotels, and finalize bookings with integrated facility selection and payment simulation.
 
-### 🖥️ [Frontend Application (React & WebRTC)](./Frontend/)
+## 🚀 Key Features
 
-The user interface for monitoring and configuring the Smart Traffic intersections.
+- **Personalized Itinerary Builder**: Users can set a budget, stay duration, and traveler count to see tailored recommendations.
+- **Activity Selection**: District-specific activity exploration for all 14 districts of Kerala.
+- **Budget-Aware Hotel Search**: Automatically recommends hotels and rooms that fit within the user's allocated budget.
+- **Real-Time Cost Tracking**: A dynamic progress bar that reflects current spending (rooms + facilities) during the booking process.
+- **Admin Dashboard**: A secure portal for administrators to manage hotel availability across the system.
+- **Travel History**: Personal records of past and upcoming trips.
 
-- [App Overview & Interface](./Frontend/)
-- [Historical Logs Dashboard](./Frontend/features/logs.md)
-- [API Services](./Frontend/api/services.md)
-- [Types & Hooks](./Frontend/types_and_hooks.md)
+## 🖥️ Getting Started
 
-### ⚙️ [Backend Engine (FastAPI & YOLO)](./Backend/)
+To explore the documentation, start with the following sections:
 
-The core brain of the system tracking vehicles and deciding the best light configurations.
-
-- [Backend Architecture & Data Flow](./Backend/)
-- [Machine Learning Deep Dive (YOLO & RL)](./Backend/ml_deep_dive.md)
-- [Database Schema](./Backend/database.md)
-- [LLM Narrator Service](./Backend/llm_service.md)
-
-### 🛠️ [Setup & Installation](./SETUP.md)
-
-Instructions on how to configure, boot up, and troubleshoot the NeuroTraffic system locally or remotely.
-
-### 📖 [Project Glossary](./GLOSSARY.md)
-
-A quick reference guide for common acronyms (YOLO, RL, SUMO, WebRTC) used throughout the system.
+- [Frontend Documentation](./Frontend/): Breakdown of all React components and styles.
+- [Backend Documentation](./Backend/): API endpoint details and database schema.
+- [Setup Guide](./SETUP.md): Instructions for local installation and database seeding.
 
 ---
 
-_Generated automatically for GitHub Pages._
+_Documentation generated for GitHub Pages via Just the Docs._
